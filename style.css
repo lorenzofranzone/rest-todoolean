@@ -41,10 +41,34 @@ body {
 
 .add-todo-container {
   /* SIZE */
+  margin-bottom: 32px;
   /* STYLE */
   /* TYPOGRAPHY */
   /* DISPLAY */
   display: flex;
   /* POSITION */
   /* INTERACTION */
+}
+
+.add-todo-container input {
+  /* SIZE */
+  width: 200px;
+  padding: 4px;
+  margin-right: 8px;
+  /* STYLE */
+  /* TYPOGRAPHY */
+  /* DISPLAY */
+  /* POSITION */
+  /* INTERACTION */
+}
+
+.add-todo-container button {
+  /* SIZE */
+  padding: 4px 8px;
+  /* STYLE */
+  /* TYPOGRAPHY */
+  /* DISPLAY */
+  /* POSITION */
+  /* INTERACTION */
+  cursor: pointer;
 }

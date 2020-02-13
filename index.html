@@ -19,15 +19,25 @@
 <body>
 
   <div class="container">
+
+    <!-- add-todo-container -->
     <div class="add-todo-container">
       <input type="text" name="" value="">
       <button type="button" name="button">Add</button>
     </div> <!-- / add-todo-container -->
+
+    <!-- todoList-container -->
+    <div class="todoList-container">
+      <ul class="list-todos">
+        
+      </ul>
+    </div> <!-- / todoList-container -->
+
   </div> <!-- / container -->
 
   <!-- Todoolean Template -->
   <script id="todoolean-template" type="text/x-handlebars-template">
-
+    <li class="todo">{{text}}</li>
   </script>
 
   <!-- Javascript -->
