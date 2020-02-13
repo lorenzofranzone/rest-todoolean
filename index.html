@@ -37,7 +37,9 @@
 
   <!-- Todoolean Template -->
   <script id="todoolean-template" type="text/x-handlebars-template">
-    <li class="todo" data-id="{{id}}">{{text}} <i class="far fa-times-circle delete-todo"></i></li>
+    <li class="todo" data-id="{{id}}">
+      <input type="text" value="{{text}}" class="todo-input" disabled> <i class="far fa-times-circle delete-todo"></i>
+    </li>
   </script>
 
   <!-- Javascript -->

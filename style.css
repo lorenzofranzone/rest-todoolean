@@ -85,11 +85,24 @@ i.delete-todo {
   cursor: pointer;
 }
 
-li.todo {
+.todo {
   /* SIZE */
-  margin-bottom: 8px;
   /* STYLE */
+  list-style-position: inside;
   /* TYPOGRAPHY */
+  /* DISPLAY */
+  /* POSITION */
+  /* INTERACTION */
+}
+
+.todo-input {
+  /* SIZE */
+  padding: 4px;
+  /* STYLE */
+  background: transparent;
+  border: none;
+  /* TYPOGRAPHY */
+  font-size: 15px;
   /* DISPLAY */
   /* POSITION */
   /* INTERACTION */
