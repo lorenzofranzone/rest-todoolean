@@ -72,3 +72,25 @@ body {
   /* INTERACTION */
   cursor: pointer;
 }
+
+i.delete-todo {
+  /* SIZE */
+  margin-left: 12px;
+  /* STYLE */
+  /* TYPOGRAPHY */
+  color: darkred;
+  /* DISPLAY */
+  /* POSITION */
+  /* INTERACTION */
+  cursor: pointer;
+}
+
+li.todo {
+  /* SIZE */
+  margin-bottom: 8px;
+  /* STYLE */
+  /* TYPOGRAPHY */
+  /* DISPLAY */
+  /* POSITION */
+  /* INTERACTION */
+}

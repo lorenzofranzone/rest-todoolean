@@ -29,7 +29,7 @@
     <!-- todoList-container -->
     <div class="todoList-container">
       <ul class="list-todos">
-        
+
       </ul>
     </div> <!-- / todoList-container -->
 
@@ -37,7 +37,7 @@
 
   <!-- Todoolean Template -->
   <script id="todoolean-template" type="text/x-handlebars-template">
-    <li class="todo">{{text}}</li>
+    <li class="todo" data-id="{{id}}">{{text}} <i class="far fa-times-circle delete-todo"></i></li>
   </script>
 
   <!-- Javascript -->
