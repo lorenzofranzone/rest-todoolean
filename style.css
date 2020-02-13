@@ -1,0 +1,50 @@
+/* ––––––––––––––––––––––––––––––––––––––––––––––––––
+Reset */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#todoolean-template { display: none; }
+
+/* //////////////////////////////////////////////////
+––––––––––––––––––––––––––––––––––––––––––––––––––
+G E N E R A L
+––––––––––––––––––––––––––––––––––––––––––––––––––
+////////////////////////////////////////////////// */
+
+body {
+  /* SIZE */
+  /* STYLE */
+  background: #fcfcfc;
+  /* TYPOGRAPHY */
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  color: #333;
+  /* DISPLAY */
+  /* POSITION */
+  /* INTERACTION */
+}
+
+.container {
+  /* SIZE */
+  width: 80%;
+  margin: 32px auto;
+  /* STYLE */
+  /* TYPOGRAPHY */
+  /* DISPLAY */
+  /* POSITION */
+  /* INTERACTION */
+}
+
+.add-todo-container {
+  /* SIZE */
+  /* STYLE */
+  /* TYPOGRAPHY */
+  /* DISPLAY */
+  display: flex;
+  /* POSITION */
+  /* INTERACTION */
+}
